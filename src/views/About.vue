@@ -5,7 +5,7 @@ import TabMenu from '../components/TabMenu.vue';
 
 <template>
   <el-container>
-    <el-header>
+    <el-header  height="100px">
       <YotaHeader/>
     </el-header>
 

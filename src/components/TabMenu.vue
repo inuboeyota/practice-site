@@ -12,7 +12,7 @@
 
     <router-link style="text-decoration: none; color:#eeeeee;" to="/About">
       <div class="item">
-        About Me
+        ABOUT ME
       </div>
     </router-link>
 
