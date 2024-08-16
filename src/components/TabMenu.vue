@@ -4,23 +4,24 @@
 <template>
   <div class="menu-buttons">
 
-    <div class="item">
-      <router-link style="text-decoration: none;" to="/">
+    <router-link style="text-decoration: none; color:#eeeeee;" to="/">
+      <div class="item">
         TOP
-      </router-link>
-    </div>
-    
-    <div class="item">
-      <router-link style="text-decoration: none;" to="/About">
-          About Me
-      </router-link>
-    </div>
+      </div>
+    </router-link>
 
-    <div class="item">
-      <router-link style="text-decoration: none;" to="/JinseiClub">
+    <router-link style="text-decoration: none; color:#eeeeee;" to="/About">
+      <div class="item">
+        About Me
+      </div>
+    </router-link>
+
+    <router-link style="text-decoration: none; color:#eeeeee;" to="/JinseiClub">
+      <div class="item">
         SHINY JINSEI CLUB
-      </router-link>
-    </div>
+      </div>
+    </router-link>
+
 
   </div>
 </template>
@@ -37,6 +38,7 @@
   align-items: stretch;
   justify-content: space-around;
   flex-direction: row;
+
 }
 
 
@@ -44,14 +46,19 @@
   /* ボタン部分の構築 */
   margin: 10px;
   background-color: #144384;
-  padding: 10px;
   border-radius: 10px;
+  /* 当たり判定 */
+
+  min-width: 20px;
+  max-width: 100%;
+  padding: 20px 10px;
 
   color:#eeeeee;
 }
 
 .item:hover{
   background-color: #6197e3;
+  color:#eeeeee;
 
 }
 
