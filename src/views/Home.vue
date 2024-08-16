@@ -1,12 +1,13 @@
 <script setup lang="ts">
-import HelloWorld from '../components/HelloWorld.vue'
+import YotaHeader from '../components/YotaHeader.vue';
+
 </script>
 
 <template>
+  <YotaHeader/>
   <div id="back-ground">
-    こんにちは、私はシャニマスが大好きですｗ
+    
   </div>
-  <HelloWorld/>
 </template>
 
 <style scoped>
