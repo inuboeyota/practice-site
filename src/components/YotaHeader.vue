@@ -3,7 +3,7 @@
 
 <template>
   <div class="head">
-    <h1>ヨタ(yotawokuuinu)って誰？仕事は？年齢は？調べてみました</h1>
+    <h1>ヨタ(yotawokuuinu)って誰？仕事は？年齢は？調べてみました！</h1>
   </div>
 </template>
 
