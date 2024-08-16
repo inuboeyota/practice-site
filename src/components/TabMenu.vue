@@ -22,7 +22,6 @@
       </div>
     </router-link>
 
-
   </div>
 </template>
 
@@ -30,26 +29,24 @@
 .menu-buttons{
   margin: 20px auto;
   display: flex;
-  color: #008ee8;
   
   /* ボタン部分がウィンドウを出ないようにする */
-  max-width: 100%;
+  min-width: 100%;
+  overflow: auto;
 
-  align-items: stretch;
-  justify-content: space-around;
+  /* align-items: stretch; */
+  justify-content: center;
   flex-direction: row;
 
 }
-
 
 .item{
   /* ボタン部分の構築 */
   margin: 10px;
   background-color: #144384;
   border-radius: 10px;
-  /* 当たり判定 */
 
-  min-width: 20px;
+  min-width: 200px;
   max-width: 100%;
   padding: 20px 10px;
 

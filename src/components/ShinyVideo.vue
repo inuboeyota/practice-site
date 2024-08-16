@@ -8,7 +8,7 @@
 <template>
   <span class="ad">[AD]：動画</span><br>
 
-  <iframe width="861" height="406" :src="movieSrc"
+  <iframe width="720" height="406" :src="movieSrc"
   :title="movieTitle" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

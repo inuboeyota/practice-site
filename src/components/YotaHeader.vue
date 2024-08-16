@@ -11,6 +11,12 @@
   .head{
     height: 100%;
     width: 100%;
+
+    max-width: 100%;
+    min-height: 100%;
+
+    overflow: auto;
+
     padding-top: 10px;
     padding-bottom: 10px;
     background-color: #144384;
