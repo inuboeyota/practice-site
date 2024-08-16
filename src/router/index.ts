@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory, RouteRecordRaw } from 'vue-router';
 
+// URLにアクセスしたときに、どのページやコンポーネントを表示するかを決定する仕組み(Router)の設定を行う
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
@@ -9,7 +10,6 @@ const routes: Array<RouteRecordRaw> = [
 ];
 
 const router = createRouter({
-  // Viteの環境変数でimport.meta.env.BASE_URL = vite.config.tsのbase
   history: createWebHistory(import.meta.env.BASE_URL),
   routes,
 });

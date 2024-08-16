@@ -4,7 +4,7 @@
 
 <template>
   <h1>{{ msg }}</h1>
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
+  <p class="read-the-docs">I LOVE IDOL M@STER SHINY COLORS</p>
 </template>
 
 <style scoped>
