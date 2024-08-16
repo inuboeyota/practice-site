@@ -17,8 +17,9 @@
 
     overflow: auto;
 
-    padding-top: 10px;
-    padding-bottom: 10px;
+    /* 垂直方向に中央ぞろえ */
+    padding: auto 0;
+    
     background-color: #144384;
     color: #ffffff;
     border-radius: 10px;
