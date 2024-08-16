@@ -6,7 +6,7 @@
 
     <router-link style="text-decoration: none; color:#eeeeee;" to="/">
       <div class="item">
-        TOP
+        HOME
       </div>
     </router-link>
 
