@@ -10,7 +10,7 @@ import TabMenu from '../components/TabMenu.vue';
     </el-header>
 
     <el-main>
-      ここに俺の説明が入る<br>
+      ここに『シャニマス人生部』の活動記録が入る<br>
       【工事中】
     </el-main>
 
