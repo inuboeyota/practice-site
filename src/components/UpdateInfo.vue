@@ -29,14 +29,14 @@
 <style scoped>
 #update-title{
   /* 文字のある部分にだけ背景を着色 */
-  background-color: rgb(144, 170, 170);
+  background-color: #ffbad6;
   width: 200px;
   margin: 0 auto;
 }
 
 #next-update-title{
   /* 文字のある部分にだけ背景を着色 */
-  background-color: rgb(207, 154, 119);
+  background-color:#ffe012;
   width: 200px;
   margin: 0 auto;
 }
