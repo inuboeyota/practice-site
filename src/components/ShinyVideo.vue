@@ -12,10 +12,10 @@
   :title="movieTitle" 
   frameborder="0" 
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-  referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+  referrerpolicy="strict-origin-when-cross-origin" autoplay>
   </iframe><br>
   
-  <span class="remark">※ここでいうADとは「あぁ～どう考えてもシャニマス楽しすぎ」の略であり、広告費などは一切生じておりません</span>
+  <span class="remark">※ここでいうADとは「<b>あ</b>ぁ～<b>ど</b>う考えてもシャニマス楽しすぎ」の略であり、広告費などは一切生じておりません</span>
 </template>
 
 <style scoped>
