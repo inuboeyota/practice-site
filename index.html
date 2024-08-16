@@ -1,6 +1,14 @@
 <!doctype html>
 <html lang="en">
   <head>
+    <script>
+      // リダイレクトの404対策
+      (function (l) {
+        if (l.hash) {
+          window.history.replaceState(null, null, l.hash.slice(1));
+        }
+      })(window.location);
+    </script>
     <meta charset="UTF-8" />
     <title>YOTA-HOMEPAGE</title>
   </head>
