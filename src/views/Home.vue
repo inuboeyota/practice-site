@@ -1,6 +1,7 @@
 <script setup lang='ts'>
 import YotaHeader from '../components/YotaHeader.vue';
-import ShinyMovie from '../components/ShinyMovie.vue';
+import ShinyVideo from '../components/ShinyVideo.vue';
+import TabMenu from '../components/TabMenu.vue';
 </script>
 
 <template>
@@ -12,13 +13,14 @@ import ShinyMovie from '../components/ShinyMovie.vue';
     <el-main>
       <!-- 動画埋め込み部分（バナー） -->
       <div class='banner'>
-        <ShinyMovie movieSrc='https://www.youtube.com/embed/Q4VAfj2y5gA'
-        movieTitle='【シャニマス】『耿耿』風野 灯織【アイドルマスター】'></ShinyMovie>
+        <ShinyVideo movieSrc='https://www.youtube.com/embed/Q4VAfj2y5gA?autoplay=1&mute=1&playsinline=1&loop=1&controls=0&playlist=Q4VAfj2y5gA'
+        movieTitle='【シャニマス】『耿耿』風野 灯織【アイドルマスター】'></ShinyVideo>
       </div>
     </el-main>
 
     <el-footer>
-    <!-- タブメニュー -->
+      <!-- タブメニュー -->
+      <TabMenu/>
     </el-footer>
   </el-container>
 </template>
