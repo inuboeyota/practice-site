@@ -19,7 +19,7 @@ import TabMenu from '../components/TabMenu.vue';
       <h3>概要</h3>
       <div class="self-intro">
         <p>
-          大学は数学科出身。現在はシステムエンジニアなのかプログラマなのかよくわからない仕事をしている。<br>
+          大学は数学科出身。現在は、デスクチェアの高さを低くしたり高くしたりして座り心地を調整するなどの業務を含む、よくわからない仕事をしている。<br>
           2023年11月に、シャニアニ映画もシャニソンも全く関係なくアイドルマスターシャイニーカラーズ(enza版)をプレイし始め
           そこから怒涛の勢いでシャニマス、アイマス全体にハマっていく。<br>
           中でも風野灯織（さん）のひたむきな姿と不器用でも努力を重ねる姿、ロジカル寄りの哲学に惹かれて、抜け出せなくなり、
@@ -31,14 +31,15 @@ import TabMenu from '../components/TabMenu.vue';
       </div>
 
       <h3>基本スペック</h3>
-      <div class="self-intro">
-        <p>年齢：七草はづき<br>
-          性別：天井努<br>
-          身長：緋田美琴～白瀬咲耶<br>
-          誕生日：黛冬優子～大崎甘奈・甜花<br>
-          出身：緋田美琴<br>
-          居住：風野灯織
-          </p>
+      <div class="spec-intro">
+        <p>
+          年齢：　　七草はづき<br>
+          性別：　　天井努<br>
+          身長：　　緋田美琴～白瀬咲耶<br>
+          誕生日：　黛冬優子～大崎甘奈・甜花<br>
+          出身：　　緋田美琴<br>
+          居住：　　風野灯織
+        </p>
       </div>
       <p class="remark">参考：<a href="https://wikiwiki.jp/shinycolors/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E4%B8%80%E8%A6%A7">プロフィール一覧</a></p>
 
@@ -70,6 +71,16 @@ import TabMenu from '../components/TabMenu.vue';
 
 .self-intro {
   width: 35%;
+  margin: 0 auto;
+
+  text-align: left;
+  display: block;
+  
+  font-size: large;
+}
+
+.spec-intro {
+  width: 25%;
   margin: 0 auto;
 
   text-align: left;

@@ -46,9 +46,9 @@
 }
 
 .update-lists {
-  width: 500px;
+  width: 400px;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
 
   /* 点が要りませんｗ */
   list-style: none;
