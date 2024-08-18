@@ -75,6 +75,12 @@ import TabMenu from '../components/TabMenu.vue';
   text-align: left;
   display: block;
   
+  font-size: large;
+}
+
+.remark {
+  font-size: smaller;
+  color: #8d8d8d;
 }
 
 /* リンクに対する色の変更を抑制 */
