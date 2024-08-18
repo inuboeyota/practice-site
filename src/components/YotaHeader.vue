@@ -27,4 +27,7 @@
     color: #ffffff;
     font-size: 1.1rem;
   }
+  .head h1 {
+    background-color: #144384;
+  }
 </style>

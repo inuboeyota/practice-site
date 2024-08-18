@@ -22,7 +22,7 @@ import TabMenu from '../components/TabMenu.vue';
 </template>
 
 <style scoped>
-#back-ground{
-  background-color: coral;
+* {
+  color:#595959;
 }
 </style>

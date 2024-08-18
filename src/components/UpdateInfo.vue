@@ -27,6 +27,12 @@
 </template>
 
 <style scoped>
+
+/* 全体の基本文字色を当てる */
+* {
+  color: #595959;
+}
+
 #update-title{
   /* 文字のある部分にだけ背景を着色 */
   background-color: #ffbad6;

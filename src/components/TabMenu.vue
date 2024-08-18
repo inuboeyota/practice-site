@@ -38,6 +38,7 @@
   justify-content: center;
   flex-direction: row;
 
+  float: center;
 }
 
 .item{
