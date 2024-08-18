@@ -10,5 +10,7 @@
 <style scoped>
 *{
   text-align: center;
+
+  background-color: #fffbd0;
 }
 </style>

@@ -56,6 +56,11 @@
   margin: 0 auto;
   text-align: left;
 
+  /* 背景色 */
+  background-color: #fafafa;
+  padding: 10px;
+  border-radius: 8px;
+
   /* 点が要りません */
   list-style: none;
 }
