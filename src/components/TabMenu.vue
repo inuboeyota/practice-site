@@ -59,6 +59,7 @@
 
 }
 
+/* visitedの色をリセットしておく */
 *:visited{
   color:#eeeeee;
 }

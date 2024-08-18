@@ -32,6 +32,8 @@
   background-color: #ffbad6;
   width: 200px;
   margin: 0 auto;
+
+  text-align: center;
 }
 
 #next-update-title{
@@ -39,6 +41,8 @@
   background-color:#ffe012;
   width: 200px;
   margin: 0 auto;
+
+  text-align: center;
 }
 
 .update-lists {
