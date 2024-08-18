@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import { nextUpdates, ver0 } from '../assets/UpdateDescription';
+  import { nextUpdates, ver1 } from '../assets/UpdateDescription';
 </script>
 
 <template>
@@ -9,7 +9,7 @@
   <div id="update-title">【更新情報】</div>
   
   <div class="update-lists">
-    <li v-for="info in ver0">
+    <li v-for="info in ver1">
       {{ info }}
     </li>
   </div>

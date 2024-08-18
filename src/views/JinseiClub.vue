@@ -11,6 +11,7 @@ import TabMenu from '../components/TabMenu.vue';
 
     <el-main>
       <h1>シャニマス人生部：活動報告</h1>
+      鋭意作成中
     </el-main>
 
     <el-footer>
