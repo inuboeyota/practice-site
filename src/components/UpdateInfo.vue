@@ -60,6 +60,9 @@
   background-color: #fafafa;
   padding: 10px;
   border-radius: 8px;
+  /* 枠線 */
+  border: #a09464 ridge;
+
 
   /* 点が要りません */
   list-style: none;
