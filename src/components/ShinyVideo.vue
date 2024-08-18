@@ -15,16 +15,17 @@
   referrerpolicy="strict-origin-when-cross-origin" autoplay>
   </iframe><br>
   
-  <span class="remark">※ここでいうADとは「<b>あ</b>ぁ～<b>ど</b>う考えてもシャニマス楽しすぎ」の略であり、広告費などは一切生じておりません</span>
+  <p class="remark">※ここでいうADとは「<b>あ</b>ぁ～<b>ど</b>う考えてもシャニマス楽しすぎ」の略であり、広告費などは一切生じておりません</p>
 </template>
 
 <style scoped>
   .ad{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 10px
   }
 
   .remark{
-    font-size: small;
+    font-size: 8px;
     color: rgb(69, 69, 69);
   }
 </style>

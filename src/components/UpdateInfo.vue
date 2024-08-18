@@ -50,7 +50,7 @@
   margin: 0 auto;
   text-align: left;
 
-  /* 点が要りませんｗ */
+  /* 点が要りません */
   list-style: none;
 }
 </style>

@@ -20,8 +20,11 @@
     /* 垂直方向に中央ぞろえ */
     padding: auto 0;
     
+    /* 文字や背景の装飾 */
     background-color: #144384;
-    color: #ffffff;
     border-radius: 10px;
+
+    color: #ffffff;
+    font-size: 1.1rem;
   }
 </style>

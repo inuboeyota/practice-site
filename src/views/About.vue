@@ -54,6 +54,8 @@ import TabMenu from '../components/TabMenu.vue';
 
 <style scoped>
 
+/* フォントサイズ（特に%やemは親要素の影響を受ける）はpxやremで調整 */
+
 #yota {
   width: 15%;
   height: 15%;
@@ -70,28 +72,29 @@ import TabMenu from '../components/TabMenu.vue';
 }
 
 .self-intro {
-  width: 35%;
+  width: 60%;
   margin: 0 auto;
 
   text-align: left;
   display: block;
   
-  font-size: large;
+  font-size: 28px;
 }
 
 .spec-intro {
-  width: 25%;
+  width: 45%;
   margin: 0 auto;
 
   text-align: left;
   display: block;
   
-  font-size: large;
+  font-size: 22px;
 }
 
 .remark {
-  font-size: smaller;
+  font-size: small;
   color: #8d8d8d;
+  font-size: 10px;
 }
 
 /* リンクに対する色の変更を抑制 */
