@@ -22,7 +22,7 @@ import TabMenu from '../components/TabMenu.vue';
           大学は数学科出身。現在は、デスクチェアの高さを低くしたり高くしたりして座り心地を調整するなどの業務を含む、よくわからない仕事をしている。<br>
           2023年11月に、シャニアニ映画もシャニソンも全く関係なくアイドルマスターシャイニーカラーズ(enza版)をプレイし始め
           そこから怒涛の勢いでシャニマス、アイマス全体にハマっていく。<br>
-          中でも風野灯織（さん）のひたむきな姿と不器用でも努力を重ねる姿、ロジカル寄りの哲学に惹かれて、抜け出せなくなり、
+          中でも<b color="#144384">風野灯織（さん）</b>のひたむきな姿と不器用でも努力を重ねる姿、ロジカル寄りの哲学に惹かれて、抜け出せなくなり、
           悶え苦しみながら生きている。
         </p>
         <p>
@@ -57,8 +57,8 @@ import TabMenu from '../components/TabMenu.vue';
 /* フォントサイズ（特に%やemは親要素の影響を受ける）はpxやremで調整 */
 
 #yota {
-  width: 15%;
-  height: 15%;
+  width: 20%;
+  height: 20%;
 
   /* 画像のコピペを一旦禁止したい */
   -webkit-user-select: none;
@@ -72,17 +72,17 @@ import TabMenu from '../components/TabMenu.vue';
 }
 
 .self-intro {
-  width: 60%;
+  width: 65%;
   margin: 0 auto;
 
   text-align: left;
   display: block;
   
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .spec-intro {
-  width: 45%;
+  width: 50%;
   margin: 0 auto;
 
   text-align: left;
