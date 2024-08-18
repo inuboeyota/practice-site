@@ -19,6 +19,7 @@ export const nextUpdates:Array<string> = [
   "【ページ】SHINY JINSEI CLUBページの実装",
   "【画面】更新情報・更新予定をscrollにしたい",
   "【ページ】ABOUTページをもうちょいきれいにする",
+  "【画面】ABOUTの文字ぞろえレイアウトを変更",
   "✅【システム】github pages上でのリロードを可能に",
   "✅【ページ】そもそものABOUTページの実装",
 ]
