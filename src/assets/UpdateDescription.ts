@@ -1,4 +1,5 @@
 export const ver1:Array<string> = [
+  "1.1.0: 🎉SHINY JINSEI CLUB （日記とまとめ）実装",
   "1.0.8: アップデート欄整理",
   "1.0.7: こんなこと細々書く必要あるのか？枠線追加",
   "1.0.6: 背景色の優越を決定",
@@ -10,17 +11,19 @@ export const ver1:Array<string> = [
   "1.0.0: 🎉一旦パブリックに公開!",
 ]
 
-
-
 export const nextUpdates:Array<string> = [
-  "【ページ】SHINY JINSEI CLUBページの実装",
+  "✅【ページ】SHINY JINSEI CLUBページの実装",
   "【画面】更新情報・更新予定をスクロールバーに収める実装",
   "【ページ】ABOUTページをもうちょいきれいにする修正",
   "【システム】ブラウザのOSによる画像比率の修正",
+  "【画面】各ページのタイトル部分を装飾",
+  "【ページ】JINSEIページの記事展開時のアニメ追加",
   "☞【画面】ウィンドウサイズ縮小時のメニュータブの不具合修正",
   "☞【画面】この欄自体のサイズ縮小時の不具合修正",
   "☞【画面・システム】スマホ対応",
 ]
+
+// 以下、既に対応済み
 
 export const updatedBeforeVer:Array<string> = [
   "✅【画面】ABOUTの文字ぞろえレイアウトを変更",

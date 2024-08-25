@@ -38,7 +38,7 @@
   justify-content: center;
   flex-direction: row;
 
-  float: center;
+  position: relative;
 }
 
 .item{
@@ -52,6 +52,9 @@
   padding: 20px 10px;
 
   color:#eeeeee;
+
+  /* フォントサイズ */
+  font-size: 110%;
 }
 
 .item:hover{

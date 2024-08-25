@@ -1,0 +1,50 @@
+/* タイトル部分 */
+.title {
+
+    /* 位置と当たり判定(背景) */
+    text-align: center;
+    margin: 10px 12%;
+    padding: 10px;
+    background-color: #8dbbff;
+
+    /* クリックで開閉するのに邪魔なのでコピー不可に */
+    user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+
+}
+.title-name {
+    /* 文字色と背景色 */
+    color: #eeeeee;
+    text-decoration: overline underline;
+    font-size: 1.2rem;
+    font-weight: bold;
+
+}
+#title-date {
+    /* 文字色/装飾 */
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+
+
+/* 本文 */
+
+article {
+    /* 背景部分 */
+    margin: 8px 12%;
+    background-color: #ffffff;
+    padding: 15px 30px;
+
+    /* 本文部分の体裁 */
+    text-align: left;
+
+}
+
+/* 動画貼る部分 */
+.twitter-tweet {
+    border: 1px solid #000000;
+    margin: 1px;
+}

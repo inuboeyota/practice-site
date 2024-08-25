@@ -84,7 +84,7 @@ import TabMenu from '../components/TabMenu.vue';
 
   text-align: left;
   display: block;
-  
+
   font-size: 24px;
 }
 
@@ -95,7 +95,7 @@ import TabMenu from '../components/TabMenu.vue';
 
   text-align: left;
   display: block;
-  
+
   font-size: 22px;
 }
 
@@ -106,11 +106,12 @@ import TabMenu from '../components/TabMenu.vue';
 }
 
 /* リンクに対する色の変更を抑制 */
-a{
+a {
   text-decoration: none;
   color: #114384;
 }
-*:visited{
+
+*:visited {
   color: #114384;
 }
 </style>
