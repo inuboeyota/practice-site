@@ -22,15 +22,15 @@
 
     <div class="twitter-tweet">
       <blockquote>
-        <p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E4%BA%BA%E7%94%9F%E9%83%A8?src=hash&amp;ref_src=twsrc%5Etfw">#シャニマス人生部</a><br>ペットボトルゴミを分別する 編
-          <a href="https://t.co/e16FTDfjR7">pic.twitter.com/e16FTDfjR7</a>
+        <p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/%E3%82%B7%E3%83%A3%E3%83%8B%E3%83%9E%E3%82%B9%E4%BA%BA%E7%94%9F%E9%83%A8?src=hash&amp;ref_src=twsrc%5Etfw" target="_blank">#シャニマス人生部</a><br>ペットボトルゴミを分別する 編
+          <a href="https://t.co/e16FTDfjR7" target="_blank">pic.twitter.com/e16FTDfjR7</a>
         </p>&mdash; ヨタ@6.5（いまんとこDAY1） (@yotagui) 
-        <a href="https://twitter.com/yotagui/status/1820106828673646994?ref_src=twsrc%5Etfw">August 4, 2024</a>
+        <a href="https://twitter.com/yotagui/status/1820106828673646994?ref_src=twsrc%5Etfw" target="_blank">August 4, 2024</a>
       </blockquote>
     </div>
-    <p>　ということで人生しています。</p>
-    <p>　コップを洗うという行為がめんどくさすぎて、2Lのペットボトルなどをほとんど買わないため、いっつも500mLのペットボトルを大量に購入している。</p>
-    <p>　そのためいつも無限にゴミが溜まっているのです。</p>
+    <p>ということで人生しています。</p>
+    <p>コップを洗うという行為がめんどくさすぎて、2Lのペットボトルなどをほとんど買わないため、いっつも500mLのペットボトルを大量に購入している。</p>
+    <p>そのためいつも無限にゴミが溜まっているのです。</p>
   </article>
 
 </template>

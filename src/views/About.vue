@@ -11,7 +11,7 @@ import TabMenu from '../components/TabMenu.vue';
     </el-header>
 
     <el-main>
-      <h1 id="about-title">ヨタ（<a href="https://x.com/yotagui">@yotagui</a>）とは？</h1>
+      <h1 id="about-title">ヨタ（<a href="https://x.com/yotagui" target="_blank">@yotagui</a>）とは？</h1>
       <p id="author">著者近影</p>
       <img id="yota" src="../assets/yotaImg.jpg" alt="yotawokuuinuの画像">
       <br>
@@ -26,7 +26,7 @@ import TabMenu from '../components/TabMenu.vue';
           悶え苦しみながら生きている。
         </p>
         <p>
-          みんなと仲良くしたいので<a href="https://x.com/yotagui">フォロー</a>してくれると嬉しいです。
+          みんなと仲良くしたいので<a href="https://x.com/yotagui" target="_blank">フォロー</a>してくれると嬉しいです。
         </p>
       </div>
 
@@ -42,7 +42,7 @@ import TabMenu from '../components/TabMenu.vue';
           担当：　　風野灯織
         </p>
       </div>
-      <p class="remark">参考：<a href="https://wikiwiki.jp/shinycolors/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E4%B8%80%E8%A6%A7">プロフィール一覧</a></p>
+      <p class="remark">参考：<a href="https://wikiwiki.jp/shinycolors/%E3%82%A2%E3%82%A4%E3%83%89%E3%83%AB%E3%83%97%E3%83%AD%E3%83%95%E3%82%A3%E3%83%BC%E3%83%AB%E4%B8%80%E8%A6%A7" target="_blank">プロフィール一覧</a></p>
 
     </el-main>
 
@@ -79,8 +79,13 @@ import TabMenu from '../components/TabMenu.vue';
 }
 
 .self-intro {
+  /* 背景情報 */
   width: 65%;
   margin: 0 auto;
+  background-color: #fdfdfd;
+  padding: 20px 10%;
+  border-radius: 10px;
+  border: 3px solid #5d5d4b;
 
   text-align: left;
   display: block;
@@ -89,9 +94,14 @@ import TabMenu from '../components/TabMenu.vue';
 }
 
 .spec-intro {
-  width: 35%;
+  /* 当たり判定・背景 */
+  width: 65%;
   min-width: 30%;
   margin: 0 auto;
+  background-color: #fdfdfd;
+  padding: 20px 10%;
+  border-radius: 10px;
+  border: 3px solid #5d5d4b;
 
   text-align: left;
   display: block;
@@ -107,7 +117,7 @@ import TabMenu from '../components/TabMenu.vue';
 
 /* リンクに対する色の変更を抑制 */
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #114384;
 }
 
