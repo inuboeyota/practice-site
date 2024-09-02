@@ -1,4 +1,5 @@
 export const ver1:Array<string> = [
+  "1.1.2: 記事追加、体裁微修正",
   "1.1.1: ABOUTページの体裁を整えた",
   "1.1.0: 🎉SHINY JINSEI CLUB （日記とまとめ）実装",
   "1.0.8: アップデート欄整理",

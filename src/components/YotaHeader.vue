@@ -8,6 +8,9 @@
 </template>
 
 <style scoped>
+  div {
+    height: 100%;
+  }
   .head{
     height: 100%;
     width: 100%;

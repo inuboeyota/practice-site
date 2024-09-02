@@ -38,6 +38,7 @@
   background-color: #ffbad6;
   width: 200px;
   margin: 0 auto;
+  padding: 10px;
 
   text-align: center;
 }
@@ -58,7 +59,7 @@
 
   /* 背景色 */
   background-color: #fafafa;
-  padding: 10px;
+  padding: 30px 50px;
   border-radius: 8px;
   /* 枠線 */
   border: #a09464 ridge;
