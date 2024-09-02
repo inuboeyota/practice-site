@@ -19,7 +19,7 @@ import { ref, Ref } from 'vue';
   </div>
 
   <article v-if="dispToggle">
-    シャニマスが生きがいンゴ
+    <p>シャニマスが生きがいンゴ</p>
   </article>
 
 </template>
