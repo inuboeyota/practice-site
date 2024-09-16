@@ -1,35 +1,29 @@
-<script setup lang='ts'>
-import YotaHeader from '../components/YotaHeader.vue';
-import ShinyVideo from '../components/ShinyVideo.vue';
-import UpdateInfo from '../components/UpdateInfo.vue';
-
-import TabMenu from '../components/TabMenu.vue';
-
+<script setup lang="ts">
 </script>
 
 <template>
-  <el-container>
-    <el-header height="100%">
-      <YotaHeader/>
-    </el-header>
+  <div class="tmp-msg">
+    【HOMEです】<br><br>
+    [＊タイトルが載ります]<br>
+    [ここに灯織の動画がのります]<br>
+    [このサイトについての情報が載ります]<br>
+    [更新情報が載ります.]<br>
+    [＊メニューバーがあります]<br>
+  </div>
 
-    <el-main>
-      <!-- 動画埋め込み部分（バナー） -->
-      <div class='banner'>
-        <ShinyVideo movieSrc='https://www.youtube.com/embed/Q4VAfj2y5gA?autoplay=1&mute=1&playsinline=1&loop=1&controls=0&playlist=Q4VAfj2y5gA'
-        movieTitle='【シャニマス】『耿耿』風野 灯織【アイドルマスター】'></ShinyVideo>
-      </div>
-
-      <!-- 更新情報記載部分 -->
-      <UpdateInfo/>
-      
-    </el-main>
-
-    <el-footer>
-      <!-- タブメニュー -->
-      <TabMenu/>
-    </el-footer>
-  </el-container>
+  <!-- テスト用に他ページの様子を確認する -->
+  <div class="tmp-link">
+    テスト用につくている<br>
+    <router-link style="text-decoration: none;" to="/About">
+      About
+    </router-link>
+    <router-link style="text-decoration: none;" to="/">
+      Home
+    </router-link>
+    <router-link style="text-decoration: none;" to="/Notes">
+      Notes
+    </router-link>
+  </div>
 </template>
 
 <style scoped>
