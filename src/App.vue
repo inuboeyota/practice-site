@@ -7,6 +7,8 @@
   </div>
 </template>
 
-<style scoped>
-
+<style>
+el-footer {
+  background-color: rgb(51, 125, 88);
+}
 </style>
